@@ -1,0 +1,54 @@
+#top2{
+	height: 18.75rem;
+	width: 100%;
+	background: url(../../img/2.jpg) no-repeat;
+	background-size: 100%;
+}
+#innerTop{
+   height: 100%;
+   width: 100%;
+   background: rgba(255,255,222,0.5);
+   /*opacity: 0.2;*/
+   text-align: center;
+}
+#head{
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	background: url(../../img/2.jpg);
+	background-size: 100%;
+	display: inline-block;
+	margin-top: 5rem;
+}
+#bottom2{
+	/*height: */
+	width: 100%；
+	margin:auto;
+    border:1px solid #dedede;
+    border-bottom:1px solid transparent;
+    margin-top: 2.5rem;
+}
+#bottom2 ul{
+   width: 96%;
+}
+#bottom2 ul li{
+	border-bottom: 1px solid #dedede;
+	height: 4.7rem;
+	line-height:4.7rem;
+}
+#bottom2 ul li span:nth-child(1){
+   font-size: 2rem;
+   color: #626061;
+   font-family: "黑体";
+   margin-left: 0.8rem;
+}
+#bottom2 ul li span:nth-child(2){
+	float: right;
+}
+#My{
+	/*position: absolute;
+	z-index: 4;*/
+}
+#cancel{
+	color: black;
+}

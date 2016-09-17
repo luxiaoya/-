@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+/******************************颜色区域*****************************************/
+.color1{
+	color: #999999;/*tab键没有触摸之前的图标颜色*/
+	font-size: 3rem;
+}
+.color2{
+	color: #686868;/*tab键没有触摸之前的文字颜色*/
+	font-size: 2rem;
+}
+.color3{
+	color: #de7965;/*tab键没有触摸之后的图标颜色*/
+	font-size: 3rem;
+}
+.color4{
+	color: #de7965;/*tab键没有触摸之后的文字颜色*/
+	font-size: 2rem;
+}
+.color5{
+	background: #1a1b1f;/*上部的背景颜色*/
+	height: 5.875rem;
+	line-height: 5.875rem;
+	color: white;
+	font-size:2.25rem;
+}
+.white{
+	color: white;
+	height: 2.7rem;
+	width: 2.7rem
+}
+/***********************************成为块级元素***********************************************/
+.block{
+	display: block;
+}
+/*************************************************************************************/
+.clear{
+	clear: both;
+}
+/*************************************************************************************/
+#tab{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #d6e3dc;
+	z-index: 9999;
+	background: white;
+}
+.tabX{
+	float: left;
+	width: 25%;
+}
+#tab>div{
+   text-align: center;
+}
+#tab>div a:hover{
+   text-decoration: none;
+}
+/***************************banner********************************************/
+#main{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	/*height: 120rem;*/
+}

@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+#title{
+	width: 100%;
+	height: 6rem;
+	line-height: 6rem;
+	/*margin-bottom: -4rem;*/
+}
+#title li{
+	width: 33.3333%;
+	border-bottom: 2px solid white;
+	color: black;
+	float: left;
+	list-style: none;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#title li:hover{
+	border-bottom: 2px solid red;
+}
+#citys{
+	width: 100%;
+	position:absolute;
+	top: 6.3rem;
+	height: 12rem;
+	background: white;
+	z-index: 2;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	display: none;
+	font-size: 2rem;
+}
+#citys>div{
+	float: left;
+	width: 33.333%;
+	height: 6rem;
+	text-align: center;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+/********************图片操作*********************************/
+.imgs{
+	height: 15.875rem;
+	border: 1px solid grey;
+	position: relative;
+}
+.imgs img{
+	height: 100%;
+	width: 100%;
+}
+.imgs span:nth-child(2){
+	position: absolute;
+	top: 8.5rem;
+	left: 2rem;
+	color: #fcfbff;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "黑体";
+}
+.imgs span:nth-child(3){
+	position: absolute;
+	top: 11.875rem;
+	right: 2.625rem;
+	color: #fcfbff;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "黑体";
+}
+.imgs span:nth-child(4){
+	position: absolute;
+	top: 11.875rem;
+	left: 2rem;
+	color: #fcfbff;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "黑体";
+}
+/**********************************************************************************/

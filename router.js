@@ -1,0 +1,34 @@
+define(['backbone'],function(backbone){
+    var Router = backbone.Router.extend({
+    	routes:{
+    		'home':'homeFunc',
+    		'game':'gameFunc',
+    		'card':'cardFunc',
+    		'me':'meFunc'
+    	},
+    	homeFunc:function(){
+            console.log('home--');
+            require(['./component/first/1.js'],function(setHome){
+                setHome.setHome();
+            })
+    	},
+    	gameFunc:function(){
+    		require(['./component/second/2.js'],function(content){
+                console.log(content);
+    			content.setGame();
+                content.setTitle();
+    		})
+    	},
+    	cardFunc:function(){
+    		require(['./component/third/3.js'],function(content){
+    			content.setCard();
+    		})
+    	},
+    	meFunc:function(){
+    		require(['./component/fourth/4.js'],function(content){
+    			content.setMe();
+    		})
+    	}
+    })
+    var router=new Router();
+})
